@@ -48,8 +48,8 @@ export default function Navbar({ logo = "logo" }: NavbarProps) {
 
                 <div className="nav-component">
 
-                    <a href="/segclub" aria-current="page" className="nav-logo inline-block w--current">
-                        {logo === "segai" ? <LogoSegAI /> : <Logo />}
+                    <a href="#" aria-current="page" className="nav-logo inline-block w--current">
+                         <Logo/>
                     </a>
 
                     <div ref={navMenu} className="nav-menu group/nav">
