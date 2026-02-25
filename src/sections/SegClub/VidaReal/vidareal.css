@@ -34,6 +34,7 @@
   position: absolute;
   bottom: 1.125rem;
   right: 1.125rem;
+  margin-left: 1rem;
 }
 
 .w-embed::before,
@@ -197,6 +198,7 @@
   width: 100%;
   height: 1.938rem;
   display: flex;
+  padding: 24px
 }
 
 .wellbeing_card-icon {
