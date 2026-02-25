@@ -33,7 +33,7 @@ export default function Hero() {
 
   return (
     <div className="background-color-linear-pink overflow-hidden">
-    <div className="hero-wrapper bg-primary-ivory padding-global rounded-[3rem]">
+    <div className="hero-wrapper bg-primary-ivory padding-global rounded-[3rem] overflow-hidden">
         <div className="hero-component is-smaller container-large">
 
           {/* Texto - Seção esquerda */}
