@@ -1,0 +1,151 @@
+/* ===========================================
+   PLANOS - Section Styles
+   =========================================== */
+
+.component_pricing {
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.pricing_header {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.pricing_title {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.pricing_header h2 {
+  letter-spacing: -0.04em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.pricing_grid {
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pricing_card {
+  grid-column-gap: 1.625rem;
+  grid-row-gap: 1.625rem;
+  background-color: var(--color-neutral-light);
+  border-radius: 1.125rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2.375rem;
+  display: flex;
+}
+
+.pricing_card.is-1 {
+  border: 2.25px solid #d3a3e5;
+  width: 100%;
+  max-width: 28.482rem;
+  height: 31rem;
+  position: relative;
+}
+
+.pricing_card.is-2 {
+  border: 2.25px solid #8b5cf6;
+  width: 100%;
+  max-width: 29.906rem;
+  height: 33rem;
+  position: relative;
+}
+
+.pricing_card.is-3 {
+  border: 2.25px solid #e5e7eb;
+  width: 100%;
+  max-width: 28.482rem;
+  height: 31rem;
+  position: relative;
+}
+
+.pricing_content {
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.pricing_badge {
+  grid-column-gap: 0.313rem;
+  grid-row-gap: 0.313rem;
+  color: var(--color-neutral-light);
+  background-color: #d3a3e5;
+  border-radius: 20rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.125rem;
+  font-weight: 500;
+  display: flex;
+  position: absolute;
+  inset: -0.75rem auto auto 1.875rem;
+}
+
+.pricing_badge.is-2 {
+  background-color: #8b5cf6;
+}
+
+.pricing_badge.is-3 {
+  background-color: #320450;
+}
+
+.icon_badge {
+  justify-content: center;
+  align-items: center;
+  width: 1.162rem;
+  height: 1.033rem;
+  display: flex;
+}
+
+/* ===========================================
+   MEDIA QUERIES - Tablet (max-width: 991px)
+   =========================================== */
+@media screen and (max-width: 991px) {
+  .pricing_grid {
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    flex-flow: column;
+  }
+}
+
+/* ===========================================
+   MEDIA QUERIES - Mobile (max-width: 479px)
+   =========================================== */
+@media screen and (max-width: 479px) {
+  .pricing_header h2 {
+    font-size: 2rem;
+  }
+
+  .pricing_card.is-1,
+  .pricing_card.is-2,
+  .pricing_card.is-3 {
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

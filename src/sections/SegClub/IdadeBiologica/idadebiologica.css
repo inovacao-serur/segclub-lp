@@ -1,0 +1,169 @@
+/* ===========================================
+   IDADE BIOLÓGICA - Section Styles
+   =========================================== */
+
+.component_biological {
+  grid-column-gap: 5.813rem;
+  grid-row-gap: 5.813rem;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.biological_content {
+  grid-column-gap: 2.625rem;
+  grid-row-gap: 2.625rem;
+  flex-flow: column;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: flex-start;
+  width: 50%;
+  max-width: 39.813rem;
+  display: flex;
+}
+
+.biological_heading {
+  grid-column-gap: 0.75rem;
+  grid-row-gap: 0.75rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.biological_heading h2 {
+  letter-spacing: -0.04em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.biological_body {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.biological_actions {
+  grid-column-gap: 1.625rem;
+  grid-row-gap: 1.625rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.biological_benefits-wrapper {
+  grid-column-gap: 0.438rem;
+  grid-row-gap: 0.438rem;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.biological_media {
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  max-width: 68.063rem;
+  height: 46.688rem;
+  display: flex;
+  position: relative;
+}
+
+.card-glow {
+  filter: blur(6rem);
+  background-image: radial-gradient(circle closest-corner, #9d2fe4, #9d2fe400 80%);
+  border-radius: 10000000000px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  text-decoration: none;
+  position: absolute;
+  inset: 0%;
+}
+
+.biological_card-media {
+  width: 70%;
+  max-width: 33.688rem;
+  height: 13rem;
+  position: relative;
+}
+
+.biological_card-media.is-1 {
+  width: 100%;
+  max-width: 48.5rem;
+  height: 30.125rem;
+}
+
+.biological_card-media.is-2 {
+  position: absolute;
+  inset: auto auto 3.625rem 0%;
+}
+
+.biological_card-media.is-3 {
+  max-width: 18.688rem;
+  height: 19.625rem;
+  position: absolute;
+  inset: 0% 5.125rem auto auto;
+}
+
+/* ===========================================
+   MEDIA QUERIES - Tablet (max-width: 991px)
+   =========================================== */
+@media screen and (max-width: 991px) {
+  .component_biological {
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    flex-flow: column;
+  }
+
+  .biological_content {
+    width: 100%;
+    max-width: none;
+  }
+
+  .biological_heading h2 {
+    font-size: 2.5rem;
+  }
+
+  .biological_media {
+    width: 100%;
+    height: auto;
+  }
+
+  .biological_card-media.is-1 {
+    height: 100%;
+  }
+
+  .biological_card-media.is-2,
+  .biological_card-media.is-3 {
+    display: none;
+  }
+}
+
+/* ===========================================
+   MEDIA QUERIES - Mobile (max-width: 479px)
+   =========================================== */
+@media screen and (max-width: 479px) {
+  .biological_heading h2 {
+    font-size: 2rem;
+  }
+
+  .biological_media {
+    order: -9999;
+  }
+
+  .biological_media.second {
+    order: 9999;
+  }
+}

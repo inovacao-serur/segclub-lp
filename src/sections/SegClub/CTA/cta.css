@@ -1,0 +1,107 @@
+/* ===========================================
+   CTA SECTION STYLES
+   =========================================== */
+
+.text-color-neutral-light {
+  color: var(--color--neutral--light);
+}
+
+.padding-global {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* ─── Button variants (not in global.css) ─── */
+.button.is-violet {
+  background-color: var(--color--primary--violet);
+}
+
+.button-transition.is-violet {
+  background-color: var(--color--primary--violet);
+}
+
+/* ─── Button group ─── */
+.button-group {
+  gap: 1rem;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+/* ─── CTA Layout ─── */
+.cta-component {
+  gap: 4.813rem;
+  background-color: #9d2fe4;
+  border-radius: 1.875rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 3.75rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.cta-content {
+  gap: 2.75rem;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 36.563rem;
+  display: flex;
+}
+
+.cta-media {
+  width: 100%;
+  max-width: 62.813rem;
+  height: 18.438rem;
+  border-top-right-radius: 1.875rem;
+  border-bottom-right-radius: 1.875rem;
+  overflow: hidden;
+}
+
+/* ===========================================
+   MEDIA QUERIES - Tablet (max-width: 991px)
+   =========================================== */
+@media screen and (max-width: 991px) {
+  .padding-global {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .cta-component {
+    gap: 2rem;
+    flex-flow: column;
+    padding-top: 2rem;
+    padding-left: 0;
+    overflow: hidden;
+  }
+
+  .cta-media {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1.875rem;
+    border-bottom-left-radius: 1.875rem;
+  }
+}
+
+/* ===========================================
+   MEDIA QUERIES - Mobile (max-width: 479px)
+   =========================================== */
+@media screen and (max-width: 479px) {
+  .padding-global {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .button-group {
+    flex-flow: column;
+    align-items: stretch;
+  }
+
+  .cta-content {
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
