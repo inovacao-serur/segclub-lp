@@ -925,7 +925,7 @@ textarea.w-input, textarea.w-select {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 525px) {
   .w-container {
     max-width: none;
   }
@@ -1950,7 +1950,7 @@ textarea.w-input, textarea.w-select {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 525px) {
   .w-nav[data-collapse="tiny"] .w-nav-menu {
     display: none;
   }
@@ -2013,7 +2013,7 @@ textarea.w-input, textarea.w-select {
   display: block;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 525px) {
   .w-tab-link {
     display: block;
   }
@@ -5810,7 +5810,7 @@ p {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 525px) {
   body {
     font-size: 3.738vw;
   }

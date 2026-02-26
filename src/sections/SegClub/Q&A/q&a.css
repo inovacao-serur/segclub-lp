@@ -61,8 +61,8 @@
   margin-right: 0;
 }
 
-/* Mobile - Small (max 479px) */
-@media screen and (max-width: 479px) {
+/* Mobile - Small (max 525px) */
+@media screen and (max-width: 525px) {
   .faq_accordion {
     padding-left: 1rem;
     padding-right: 1rem;

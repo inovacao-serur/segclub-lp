@@ -36,7 +36,7 @@ body {
 }
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 525px) {
   body {
     font-size: 3.738vw;
   }
@@ -133,7 +133,7 @@ a,
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 525px) {
   .hide-mobile {
     display: none !important;
   }

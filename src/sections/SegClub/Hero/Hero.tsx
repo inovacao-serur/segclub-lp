@@ -49,7 +49,7 @@ export default function Hero() {
 
             <div className="hero_body">
               <div className="max-w-lg">
-                <div className="text-[1.5rem] max-[479px]:text-lg leading-normal font-light text-primary-graphite mobile-smaller">
+                <div className="text-[1.5rem] max-[525px]:text-lg leading-normal font-light text-primary-graphite mobile-smaller">
                   O SegClub+ reúne exercícios, alimentação, saúde mental, além de descontos e experiências incríveis.
                 </div>
               </div>

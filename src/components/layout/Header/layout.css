@@ -212,7 +212,7 @@
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 525px) {
   .text-announcement {
     font-size: .63rem;
   }

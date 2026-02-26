@@ -159,9 +159,9 @@
 }
 
 /* ===========================================
-   MEDIA QUERIES - Mobile (max-width: 479px)
+   MEDIA QUERIES - Mobile (max-width: 525px)
    =========================================== */
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 525px) {
   .hero-component {
     padding-top: 9rem;
     padding-bottom: 0;
